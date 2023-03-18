@@ -1,8 +1,4 @@
-/*
-=============== 
-Variables
-===============
-*/
+@import url("https://fonts.googleapis.com/css2?family=Oxygen+Mono&family=Oxygen:wght@700&display=swap");
 
 :root {
   /* dark shades of primary color*/
@@ -57,12 +53,13 @@ Global Styles
   box-sizing: border-box;
 }
 body {
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
-    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: var(--clr-pink);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  background: var(--clr-primary-1);
   color: var(--clr-grey-9);
   line-height: 1.5;
   font-size: 0.875rem;
+  font-family: "Oxygen Mono", monospace;
 }
 ul {
   list-style-type: none;
@@ -95,6 +92,12 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-5);
 }
+h4:hover {
+  color: hsl(125, 67%, 44%);
+}
+/* button:hover{
+  background-color: hsl(125, 67%, 44%);
+} */
 @media screen and (min-width: 800px) {
   h1 {
     font-size: 4rem;
